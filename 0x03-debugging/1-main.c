@@ -7,9 +7,9 @@
 
 int main(void)
 {
-int t;
+int i;
 
-printf("Infinate loop incomking : (\n");
+printf("Infinate loop incoming : (\n");
 
 i = 0;
 /*

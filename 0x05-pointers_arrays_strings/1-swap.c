@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * swap_ int - swaps the values of two intigers
- * @a: int a
- * @b: int b
- */ 
-void swap_int(int *a; int *b)
-{     
-	int = q;
+ * swap_int -> given two intigers swap the values they are holding
+ * @a: paremeter 1
+ * @b: paremeter 2
+ */
+void swap_int(int *a, int *b)
+{
+	int tmp;
 
-	q = *a;
+	tmp = *a;
 	*a = *b;
-	*b = q;
+	*b = tmp;
 }
